@@ -4,14 +4,15 @@ id = a626ced6-3ae0-4fd7-828d-d0ad969b18c9
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"889219-6b17f918-42d4-4858-9b17-dba105cd32e1","path":"1ws.json","metaData":{}}
-files[] = {"id":"889219-3ef58059-362a-41b5-b427-8e4d496c3fdb","path":"w1.json","metaData":{}}
+files[] = {"id":"889219-6b17f918-42d4-4858-9b17-dba105cd32e1","path":"-changed.json","metaData":{}}
+files[] = {"id":"889219-49501a73-3c96-4d82-8bb4-888a9e62f94f","path":"mon1.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
 files[] = {"path":"New (1).yaml","metaData":{}}
+files[] = {"path":"New (2).yaml","metaData":{}}
 files[] = {"path":"New.yaml","metaData":{}}
 files[] = {"path":"s1.yaml.yaml","metaData":{}}
 
