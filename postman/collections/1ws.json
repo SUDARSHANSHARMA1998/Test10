@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "3ef58059-362a-41b5-b427-8e4d496c3fdb",
-		"name": "w1",
+		"_postman_id": "6b17f918-42d4-4858-9b17-dba105cd32e1",
+		"name": "1ws",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "889219-3ef58059-362a-41b5-b427-8e4d496c3fdb"
+		"_uid": "889219-6b17f918-42d4-4858-9b17-dba105cd32e1"
 	},
 	"item": [
 		{
@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "List all pets",
-					"id": "21c71b7b-c8f1-43d3-bd63-3f6c87cc6e48",
+					"id": "ec440969-7d7e-43b5-9e90-b9c92ecddc18",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -24,7 +24,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/pets?limit=60359713",
+							"raw": "{{baseUrl}}/pets?limit=-30075172",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -34,7 +34,7 @@
 							"query": [
 								{
 									"key": "limit",
-									"value": "60359713",
+									"value": "-30075172",
 									"description": "How many items to return at one time (max 100)"
 								}
 							]
@@ -42,13 +42,13 @@
 					},
 					"response": [
 						{
-							"id": "f3bdb9f8-6e09-407b-9091-d339afb9f48e",
+							"id": "8f3e148e-21c8-47a9-a820-3fe0a3d81d58",
 							"name": "A paged array of pets",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/pets?limit=60359713",
+									"raw": "{{baseUrl}}/pets?limit=-30075172",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -58,7 +58,7 @@
 									"query": [
 										{
 											"key": "limit",
-											"value": "60359713"
+											"value": "-30075172"
 										}
 									]
 								}
@@ -71,7 +71,7 @@
 									"disabled": false,
 									"description": "A link to the next page of responses",
 									"key": "x-next",
-									"value": "dolore pariatur"
+									"value": "est elit"
 								},
 								{
 									"key": "Content-Type",
@@ -79,16 +79,16 @@
 								}
 							],
 							"cookie": [],
-							"body": "[\n  {\n    \"id\": 77802444,\n    \"name\": \"ad velit\",\n    \"tag\": \"elit esse\"\n  },\n  {\n    \"id\": -87653452,\n    \"name\": \"consequat\",\n    \"tag\": \"\"\n  }\n]"
+							"body": "[\n  {\n    \"id\": -8854646,\n    \"name\": \"cupidatat exercitation Lorem elit dolor\",\n    \"tag\": \"in cupidatat ad\"\n  },\n  {\n    \"id\": -82910582,\n    \"name\": \"reprehenderit voluptate qui\",\n    \"tag\": \"laboris ut\"\n  }\n]"
 						},
 						{
-							"id": "b25a2341-ab73-4dd8-b9b9-f7a0020d1d95",
+							"id": "8879e722-58a5-47ca-87b0-715e2a1ab7f0",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/pets?limit=60359713",
+									"raw": "{{baseUrl}}/pets?limit=-30075172",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -98,7 +98,7 @@
 									"query": [
 										{
 											"key": "limit",
-											"value": "60359713"
+											"value": "-30075172"
 										}
 									]
 								}
@@ -113,13 +113,13 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n  \"code\": 40261248,\n  \"message\": \"aliquip amet\"\n}"
+							"body": "{\n  \"code\": -84937710,\n  \"message\": \"qui aliqua mollit commodo Lorem\"\n}"
 						}
 					]
 				},
 				{
 					"name": "Create a pet",
-					"id": "7db743c9-1ba4-4ba4-b37b-9a7f970d6848",
+					"id": "bf8799bb-a0f8-4cfd-b5d4-854ab5771e6b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -143,7 +143,7 @@
 					},
 					"response": [
 						{
-							"id": "388655af-1c82-4ac6-9c10-86730d1cf29f",
+							"id": "8a0884ac-d84b-4474-8d74-efc2a1874c37",
 							"name": "Null response",
 							"originalRequest": {
 								"method": "POST",
@@ -171,7 +171,7 @@
 							"body": ""
 						},
 						{
-							"id": "9ab0f8e8-144f-4874-9529-3c4b30ec530e",
+							"id": "279bf8c8-c6b4-453a-8ee9-dcb00dc0f66f",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "POST",
@@ -196,13 +196,13 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n  \"code\": 40261248,\n  \"message\": \"aliquip amet\"\n}"
+							"body": "{\n  \"code\": -84937710,\n  \"message\": \"qui aliqua mollit commodo Lorem\"\n}"
 						}
 					]
 				},
 				{
 					"name": "Info for a specific pet",
-					"id": "46f590ca-db88-4a78-bcd3-82646803604d",
+					"id": "f205c2b1-efe6-41c1-9697-5c0d5c96792e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -226,7 +226,7 @@
 							"variable": [
 								{
 									"key": "petId",
-									"value": "dolore pariatur",
+									"value": "est elit",
 									"description": "(Required) The id of the pet to retrieve"
 								}
 							]
@@ -234,7 +234,7 @@
 					},
 					"response": [
 						{
-							"id": "afe4419e-47e7-4025-b996-62de8879ff8d",
+							"id": "c6f38753-9f84-40b4-b314-09b845896e73",
 							"name": "Expected response to a valid request",
 							"originalRequest": {
 								"method": "GET",
@@ -251,7 +251,7 @@
 									"variable": [
 										{
 											"key": "petId",
-											"value": "dolore pariatur",
+											"value": "est elit",
 											"description": "(Required) The id of the pet to retrieve"
 										}
 									]
@@ -267,10 +267,10 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n  \"id\": -61874835,\n  \"name\": \"laborum\",\n  \"tag\": \"nisi\"\n}"
+							"body": "{\n  \"id\": -94503631,\n  \"name\": \"qui laboris eu dolore commodo\",\n  \"tag\": \"non\"\n}"
 						},
 						{
-							"id": "4f17f0ec-c53d-4722-97f8-b1938b8e125e",
+							"id": "7cea3a92-1992-46fd-bd96-a697c1b812d4",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -287,7 +287,7 @@
 									"variable": [
 										{
 											"key": "petId",
-											"value": "dolore pariatur",
+											"value": "est elit",
 											"description": "(Required) The id of the pet to retrieve"
 										}
 									]
@@ -303,17 +303,17 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n  \"code\": 40261248,\n  \"message\": \"aliquip amet\"\n}"
+							"body": "{\n  \"code\": -84937710,\n  \"message\": \"qui aliqua mollit commodo Lorem\"\n}"
 						}
 					]
 				}
 			],
-			"id": "4d51d403-6ed6-4052-a640-e0e8a2bdfcdc"
+			"id": "9cf7856c-0a02-4922-bc86-ac77c1d189e3"
 		}
 	],
 	"variable": [
 		{
-			"id": "8248e40c-585c-4b8d-8226-186136619bbe",
+			"id": "a246a501-a4d0-4890-9575-6f70e57f64c1",
 			"key": "baseUrl",
 			"value": "http://petstore.swagger.io/v1",
 			"type": "string"
