@@ -9,10 +9,14 @@ id = 62528de8-c1e2-4c79-a07e-e60002422c01
 
 [config.relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"525986-e8e35403-26db-4fb6-892a-00f5b5f8f1ac","path":"New Collection.json","metaData":{}}
 
 [config.relations.collections.metaData]
 
 [config.relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"Stripe_8MB.yml","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
+type = openapi:3
+rootFiles[] = Stripe_8MB.yml
