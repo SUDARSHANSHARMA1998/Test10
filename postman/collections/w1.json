@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "3ef58059-362a-41b5-b427-8e4d496c3fdb",
+		"_postman_id": "1bb96f7d-fe78-4a86-b2fe-9cf5af4ad3f0",
 		"name": "w1",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "889219-3ef58059-362a-41b5-b427-8e4d496c3fdb"
+		"_uid": "525986-1bb96f7d-fe78-4a86-b2fe-9cf5af4ad3f0"
 	},
 	"item": [
 		{
@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "List all pets",
-					"id": "21c71b7b-c8f1-43d3-bd63-3f6c87cc6e48",
+					"id": "a0023064-cf74-493a-b22d-30280d8faabd",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -42,7 +42,7 @@
 					},
 					"response": [
 						{
-							"id": "f3bdb9f8-6e09-407b-9091-d339afb9f48e",
+							"id": "c0c11462-9ff6-41c5-b188-c6a0b4be7bd8",
 							"name": "A paged array of pets",
 							"originalRequest": {
 								"method": "GET",
@@ -72,6 +72,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"disabled": false,
@@ -88,7 +89,7 @@
 							"body": "[\n  {\n    \"id\": 77802444,\n    \"name\": \"ad velit\",\n    \"tag\": \"elit esse\"\n  },\n  {\n    \"id\": -87653452,\n    \"name\": \"consequat\",\n    \"tag\": \"\"\n  }\n]"
 						},
 						{
-							"id": "b25a2341-ab73-4dd8-b9b9-f7a0020d1d95",
+							"id": "e786396a-ed94-4283-ba39-69b1e4cd76e4",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -118,6 +119,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -131,7 +133,7 @@
 				},
 				{
 					"name": "Create a pet",
-					"id": "7db743c9-1ba4-4ba4-b37b-9a7f970d6848",
+					"id": "3bcc1d61-7409-4e9a-b41a-e591be25ad0d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -155,7 +157,7 @@
 					},
 					"response": [
 						{
-							"id": "388655af-1c82-4ac6-9c10-86730d1cf29f",
+							"id": "f8044e23-c985-472b-995c-ce5664b95012",
 							"name": "Null response",
 							"originalRequest": {
 								"method": "POST",
@@ -178,6 +180,7 @@
 							"status": "Created",
 							"code": 201,
 							"_postman_previewlanguage": "text",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -188,7 +191,7 @@
 							"body": ""
 						},
 						{
-							"id": "9ab0f8e8-144f-4874-9529-3c4b30ec530e",
+							"id": "f8622e7d-d45e-4db9-8970-63fd316d9f50",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "POST",
@@ -211,6 +214,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -224,7 +228,7 @@
 				},
 				{
 					"name": "Info for a specific pet",
-					"id": "46f590ca-db88-4a78-bcd3-82646803604d",
+					"id": "6c39c062-3866-41fa-a153-fd8835fbb647",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -256,7 +260,7 @@
 					},
 					"response": [
 						{
-							"id": "afe4419e-47e7-4025-b996-62de8879ff8d",
+							"id": "8f99f2c1-d696-4bce-aabb-cc20de5a548e",
 							"name": "Expected response to a valid request",
 							"originalRequest": {
 								"method": "GET",
@@ -287,6 +291,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -297,7 +302,7 @@
 							"body": "{\n  \"id\": -61874835,\n  \"name\": \"laborum\",\n  \"tag\": \"nisi\"\n}"
 						},
 						{
-							"id": "4f17f0ec-c53d-4722-97f8-b1938b8e125e",
+							"id": "5032314c-727d-404f-a3c4-bf91d53a31f3",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -328,6 +333,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -340,7 +346,7 @@
 					]
 				}
 			],
-			"id": "4d51d403-6ed6-4052-a640-e0e8a2bdfcdc"
+			"id": "08d337be-c9e2-4abc-84de-9a69bdb6e662"
 		}
 	],
 	"variable": [
